@@ -2,12 +2,12 @@
 
 ### Individual SageMath Jupyter .ipynb Notebooks
 
-00. [Introduction](00.md)
-01. [BASH crash](01.md)
-02. [Numbers, Strings, Booleans and Sets](02.md)
-03. [Map, Function, Collection, and Probability](03.md)
-04. [Conditional Probability, Random Variables, Loops and Conditionals](04.md)
-05. [Random Variables, Expectations, Data, Statistics, Arrays and Tuples, Iterators and Generators](05.md)
+* [00. Introduction](00.md)
+* [01. BASH crash](01.md)
+* [02. Numbers, Strings, Booleans and Sets](02.md)
+* [03. Map, Function, Collection, and Probability](03.md)
+* [04. Conditional Probability, Random Variables, Loops and Conditionals](04.md)
+* [05. Random Variables, Expectations, Data, Statistics, Arrays and Tuples, Iterators and Generators](05.md)
 
 ### Starting package
 * Download the [Starting package](Files/first_lecture_and_data.zip)
