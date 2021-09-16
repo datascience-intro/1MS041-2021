@@ -14067,7 +14067,7 @@ a.anchor-link {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>/Users/avelin/git/1MS041/master/jp
+<pre>/home/user/datascience-intro/raaz/1MS041/master/jp
 </pre>
 </div>
 </div>
@@ -14076,10 +14076,10 @@ a.anchor-link {
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
@@ -14092,54 +14092,14 @@ ls <span class="c1"># list the contents of this working directory</span>
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>00.ipynb
-01.ipynb
-02.ipynb
-03.ipynb
-04.ipynb
-05.ipynb
-06.ipynb
-07.ipynb
-08.ipynb
-09.ipynb
-10.ipynb
-11.ipynb
-12.ipynb
-13.ipynb
-EXAM2019.ipynb
-README.md
-Untitled.ipynb
-data
-images
-myHist.png
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
-mkdir mydir
+mkdir -p mydir
 </pre></div>
 
      </div>
@@ -14150,7 +14110,7 @@ mkdir mydir
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
@@ -14176,10 +14136,13 @@ ls -al
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>/Users/avelin/git/1MS041/master/jp/mydir
-total 0
-drwxr-xr-x  2 sage sage  64 Aug 17 11:40 .
-drwxr-xr-x 24 sage sage 768 Aug 17 11:40 ..
+<pre>/home/user/datascience-intro/raaz/1MS041/master/jp/mydir
+total 3600
+drwxr-xr-x  3 user user       5 Sep 14 11:42 .
+drwxr-xr-x 20 user user      68 Sep 14 12:04 ..
+-rw-r--r--  1 user user   29323 Sep 14 11:42 20170228.txt
+drwxr-xr-x  2 user user     232 Sep 14 11:42 sou
+-rw-r--r--  1 user user 3652403 Sep 14 11:42 sou.tar.gz
 </pre>
 </div>
 </div>
@@ -14191,7 +14154,7 @@ drwxr-xr-x 24 sage sage 768 Aug 17 11:40 ..
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
@@ -14215,7 +14178,7 @@ drwxr-xr-x 24 sage sage 768 Aug 17 11:40 ..
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>/Users/avelin/git/1MS041/master/jp
+<pre>/home/user/datascience-intro/raaz/1MS041/master/jp
 </pre>
 </div>
 </div>
@@ -14227,7 +14190,7 @@ drwxr-xr-x 24 sage sage 768 Aug 17 11:40 ..
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="%22Use-the-source%22-by-man-ning-the-unknown-command">"Use the source" by <code>man</code>-ning the unknown <code>command</code><a class="anchor-link" href="#%22Use-the-source%22-by-man-ning-the-unknown-command">&#182;</a></h2><p>By evaluating the next cell, you are using thr <code>man</code>ual pages to find more about the command <code>ls</code>. You can learn more about any command called <code>command</code> by typing <code>man command</code> in the BASH shell.</p>
+<h2 id="%22Use-the-source%22-by-man-ning-the-unknown-command">"Use the source" by <code>man</code>-ning the unknown <code>command</code><a class="anchor-link" href="#%22Use-the-source%22-by-man-ning-the-unknown-command">&#182;</a></h2><p>By evaluating the next cell, you are using the <code>man</code>ual pages to find more about the command <code>ls</code>. You can learn more about any command called <code>command</code> by typing <code>man command</code> in the BASH shell.</p>
 <p>The output of the next cell with command <code>man ls</code> will look something like the following:</p>
 
 <pre><code>LS(1)                            User Commands                           LS(1)
@@ -14281,273 +14244,20 @@ SEE ALSO
 GNU coreutils 8.28               January 2018                            LS(1)</code></pre>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
-man ls
+<span class="c1">## uncomment by removing &#39;#&#39; in the next line and try executing this cell</span>
+<span class="c1"># man ls</span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>LS(1)                            User Commands                           LS(1)
-
-NAME
-       ls - list directory contents
-
-SYNOPSIS
-       ls [OPTION]... [FILE]...
-
-DESCRIPTION
-       List  information  about  the FILEs (the current directory by default).
-       Sort entries alphabetically if none of -cftuvSUX nor --sort  is  speci‐
-       fied.
-
-       Mandatory  arguments  to  long  options are mandatory for short options
-       too.
-
-       -a, --all
-              do not ignore entries starting with .
-
-       -A, --almost-all
-              do not list implied . and ..
-
-       --author
-              with -l, print the author of each file
-
-       -b, --escape
-              print C-style escapes for nongraphic characters
-
-       --block-size=SIZE
-              scale sizes by SIZE before printing them; e.g., &#39;--block-size=M&#39;
-              prints sizes in units of 1,048,576 bytes; see SIZE format below
-
-       -B, --ignore-backups
-              do not list implied entries ending with ~
-
-       -c     with -lt: sort by, and show, ctime (time of last modification of
-              file status information); with -l: show ctime and sort by  name;
-              otherwise: sort by ctime, newest first
-
-       -C     list entries by columns
-
-       --color[=WHEN]
-              colorize  the output; WHEN can be &#39;always&#39; (default if omitted),
-              &#39;auto&#39;, or &#39;never&#39;; more info below
-
-       -d, --directory
-              list directories themselves, not their contents
-
-       -D, --dired
-              generate output designed for Emacs&#39; dired mode
-
-       -f     do not sort, enable -aU, disable -ls --color
-
-       -F, --classify
-              append indicator (one of */=&gt;@|) to entries
-
-       --file-type
-              likewise, except do not append &#39;*&#39;
-
-       --format=WORD
-              across -x, commas -m, horizontal -x, long -l, single-column  -1,
-              verbose -l, vertical -C
-
-       --full-time
-              like -l --time-style=full-iso
-
-       -g     like -l, but do not list owner
-
-       --group-directories-first
-              group directories before files;
-
-              can   be  augmented  with  a  --sort  option,  but  any  use  of
-              --sort=none (-U) disables grouping
-
-       -G, --no-group
-              in a long listing, don&#39;t print group names
-
-       -h, --human-readable
-              with -l and/or -s, print human readable sizes (e.g., 1K 234M 2G)
-
-       --si   likewise, but use powers of 1000 not 1024
-
-       -H, --dereference-command-line
-              follow symbolic links listed on the command line
-
-       --dereference-command-line-symlink-to-dir
-              follow each command line symbolic link
-
-              that points to a directory
-
-       --hide=PATTERN
-              do not list implied entries matching shell  PATTERN  (overridden
-              by -a or -A)
-
-       --indicator-style=WORD
-              append indicator with style WORD to entry names: none (default),
-              slash (-p), file-type (--file-type), classify (-F)
-
-       -i, --inode
-              print the index number of each file
-
-       -I, --ignore=PATTERN
-              do not list implied entries matching shell PATTERN
-
-       -k, --kibibytes
-              default to 1024-byte blocks for disk usage
-
-       -l     use a long listing format
-
-       -L, --dereference
-              when showing file information for a symbolic link, show informa‐
-              tion  for  the file the link references rather than for the link
-              itself
-
-       -m     fill width with a comma separated list of entries
-
-       -n, --numeric-uid-gid
-              like -l, but list numeric user and group IDs
-
-       -N, --literal
-              print raw entry names (don&#39;t treat e.g. control characters  spe‐
-              cially)
-
-       -o     like -l, but do not list group information
-
-       -p, --indicator-style=slash
-              append / indicator to directories
-
-       -q, --hide-control-chars
-              print ? instead of nongraphic characters
-
-       --show-control-chars
-              show nongraphic characters as-is (the default, unless program is
-              &#39;ls&#39; and output is a terminal)
-
-       -Q, --quote-name
-              enclose entry names in double quotes
-
-       --quoting-style=WORD
-              use quoting style WORD for entry names: literal, locale,  shell,
-              shell-always, shell-escape, shell-escape-always, c, escape
-
-       -r, --reverse
-              reverse order while sorting
-
-       -R, --recursive
-              list subdirectories recursively
-
-       -s, --size
-              print the allocated size of each file, in blocks
-
-       -S     sort by file size, largest first
-
-       --sort=WORD
-              sort  by  WORD instead of name: none (-U), size (-S), time (-t),
-              version (-v), extension (-X)
-
-       --time=WORD
-              with -l, show time as WORD instead of default modification time:
-              atime  or  access  or  use  (-u); ctime or status (-c); also use
-              specified time as sort key if --sort=time (newest first)
-
-       --time-style=STYLE
-              with -l, show times using style STYLE: full-iso, long-iso,  iso,
-              locale,  or  +FORMAT;  FORMAT  is interpreted like in &#39;date&#39;; if
-              FORMAT  is  FORMAT1&lt;newline&gt;FORMAT2,  then  FORMAT1  applies  to
-              non-recent  files  and FORMAT2 to recent files; if STYLE is pre‐
-              fixed with &#39;posix-&#39;, STYLE takes effect only outside  the  POSIX
-              locale
-
-       -t     sort by modification time, newest first
-
-       -T, --tabsize=COLS
-              assume tab stops at each COLS instead of 8
-
-       -u     with  -lt:  sort by, and show, access time; with -l: show access
-              time and sort by name; otherwise: sort by  access  time,  newest
-              first
-
-       -U     do not sort; list entries in directory order
-
-       -v     natural sort of (version) numbers within text
-
-       -w, --width=COLS
-              set output width to COLS.  0 means no limit
-
-       -x     list entries by lines instead of by columns
-
-       -X     sort alphabetically by entry extension
-
-       -Z, --context
-              print any security context of each file
-
-       -1     list one file per line.  Avoid &#39;\n&#39; with -q or -b
-
-       --help display this help and exit
-
-       --version
-              output version information and exit
-
-       The  SIZE  argument  is  an  integer and optional unit (example: 10K is
-       10*1024).  Units are K,M,G,T,P,E,Z,Y  (powers  of  1024)  or  KB,MB,...
-       (powers of 1000).
-
-       Using  color  to distinguish file types is disabled both by default and
-       with --color=never.  With --color=auto, ls emits color codes only  when
-       standard  output is connected to a terminal.  The LS_COLORS environment
-       variable can change the settings.  Use the dircolors command to set it.
-
-   Exit status:
-       0      if OK,
-
-       1      if minor problems (e.g., cannot access subdirectory),
-
-       2      if serious trouble (e.g., cannot access command-line argument).
-
-AUTHOR
-       Written by Richard M. Stallman and David MacKenzie.
-
-REPORTING BUGS
-       GNU coreutils online help: &lt;http://www.gnu.org/software/coreutils/&gt;
-       Report ls translation bugs to &lt;http://translationproject.org/team/&gt;
-
-COPYRIGHT
-       Copyright © 2016 Free Software Foundation, Inc.   License  GPLv3+:  GNU
-       GPL version 3 or later &lt;http://gnu.org/licenses/gpl.html&gt;.
-       This  is  free  software:  you  are free to change and redistribute it.
-       There is NO WARRANTY, to the extent permitted by law.
-
-SEE ALSO
-       Full documentation at: &lt;http://www.gnu.org/software/coreutils/ls&gt;
-       or available locally via: info &#39;(coreutils) ls invocation&#39;
-
-GNU coreutils 8.25               February 2017                           LS(1)
-</pre>
-</div>
-</div>
-
-</div>
-
 </div>
 
 </div>
@@ -14558,7 +14268,7 @@ GNU coreutils 8.25               February 2017                           LS(1)
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
@@ -14585,7 +14295,7 @@ curl -O http://lamastex.org/datasets/public/SOU/sou/20170228.txt
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100 29323  100 29323    0     0  22872      0  0:00:01  0:00:01 --:--:-- 22855
+100 29323  100 29323    0     0  39097      0 --:--:-- --:--:-- --:--:-- 39045
 </pre>
 </div>
 </div>
@@ -14597,7 +14307,7 @@ curl -O http://lamastex.org/datasets/public/SOU/sou/20170228.txt
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
@@ -14622,6 +14332,8 @@ ls mydir/
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>20170228.txt
+sou
+sou.tar.gz
 </pre>
 </div>
 </div>
@@ -14633,7 +14345,7 @@ ls mydir/
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
@@ -14685,7 +14397,7 @@ I am here tonight to deliver a message of unity and strength, and it is a messag
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
@@ -14714,7 +14426,7 @@ curl -O http://lamastex.org/datasets/public/SOU/sou.tar.gz
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
 <pre>  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100 3566k  100 3566k    0     0   333k      0  0:00:10  0:00:10 --:--:--  285k
+100 3566k  100 3566k    0     0  1563k      0  0:00:02  0:00:02 --:--:-- 1563k
 </pre>
 </div>
 </div>
@@ -14726,7 +14438,7 @@ curl -O http://lamastex.org/datasets/public/SOU/sou.tar.gz
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
@@ -14751,10 +14463,11 @@ ls -lh mydir
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>/Users/avelin/git/1MS041/master/jp
-total 4.1M
--rw-r--r-- 1 sage sage  29K Aug 17 11:40 20170228.txt
--rw-r--r-- 1 sage sage 3.5M Aug 17 11:40 sou.tar.gz
+<pre>/home/user/datascience-intro/raaz/1MS041/master/jp
+total 25K
+-rw-r--r-- 1 user user  29K Sep 14 12:07 20170228.txt
+drwxr-xr-x 2 user user  232 Sep 14 11:42 sou
+-rw-r--r-- 1 user user 3.5M Sep 14 12:07 sou.tar.gz
 </pre>
 </div>
 </div>
@@ -14763,10 +14476,10 @@ total 4.1M
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
@@ -14777,257 +14490,6 @@ tar zxvf sou.tar.gz
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>sou/
-sou/18111105.txt
-sou/20040120.txt
-sou/19061203.txt
-sou/18411207.txt
-sou/19091207.txt
-sou/18701205.txt
-sou/19410106.txt
-sou/18571208.txt
-sou/18891203.txt
-sou/18341201.txt
-sou/19660112.txt
-sou/17981208.txt
-sou/19610130.txt
-sou/18140920.txt
-sou/18011208.txt
-sou/18811206.txt
-sou/18281202.txt
-sou/19840125.txt
-sou/18611203.txt
-sou/18731201.txt
-sou/19400103.txt
-sou/19630114.txt
-sou/19281204.txt
-sou/19221208.txt
-sou/19031207.txt
-sou/18681209.txt
-sou/18431206.txt
-sou/18861206.txt
-sou/19261207.txt
-sou/19271206.txt
-sou/19141208.txt
-sou/18791201.txt
-sou/19131202.txt
-sou/19041206.txt
-sou/18001111.txt
-sou/18041108.txt
-sou/20010227.txt
-sou/18621201.txt
-sou/19251208.txt
-sou/19700122.txt
-sou/19790125.txt
-sou/19870127.txt
-sou/20050202.txt
-sou/18331203.txt
-sou/17961207.txt
-sou/18021215.txt
-sou/18771203.txt
-sou/19890209.txt
-sou/18301206.txt
-sou/18121104.txt
-sou/19580109.txt
-sou/20110125.txt
-sou/19450106.txt
-sou/18031017.txt
-sou/19301202.txt
-sou/18661203.txt
-sou/19520109.txt
-sou/19620111.txt
-sou/18531205.txt
-sou/19610112.txt
-sou/19430107.txt
-sou/19960123.txt
-sou/17911025.txt
-sou/18211203.txt
-sou/18951207.txt
-sou/18901201.txt
-sou/18721202.txt
-sou/20140128.txt
-sou/18361205.txt
-sou/18101205.txt
-sou/18081108.txt
-sou/18961204.txt
-sou/18871206.txt
-sou/18781202.txt
-sou/19480107.txt
-sou/19001203.txt
-sou/18421206.txt
-sou/18241207.txt
-sou/18131207.txt
-sou/19500104.txt
-sou/20010920.txt
-sou/19940125.txt
-sou/19850206.txt
-sou/18541204.txt
-sou/17921106.txt
-sou/19800121.txt
-sou/19311208.txt
-sou/18461208.txt
-sou/19161205.txt
-sou/19121203.txt
-sou/19370106.txt
-sou/19151207.txt
-sou/19051205.txt
-sou/19021202.txt
-sou/18321204.txt
-sou/18671203.txt
-sou/18651204.txt
-sou/19510108.txt
-sou/18581206.txt
-sou/18161203.txt
-sou/19390104.txt
-sou/19321206.txt
-sou/18641206.txt
-sou/20070123.txt
-sou/18691206.txt
-sou/17991203.txt
-sou/18551231.txt
-sou/19440111.txt
-sou/19910129.txt
-sou/18921206.txt
-sou/18061202.txt
-sou/19470106.txt
-sou/19590109.txt
-sou/18151205.txt
-sou/18751207.txt
-sou/18981205.txt
-sou/20090224.txt
-sou/18071027.txt
-sou/18171212.txt
-sou/18821204.txt
-sou/19211206.txt
-sou/18371205.txt
-sou/19181202.txt
-sou/19720120.txt
-sou/18601203.txt
-sou/19530107.txt
-sou/18741207.txt
-sou/19460121.txt
-sou/19350104.txt
-sou/19201207.txt
-sou/18591219.txt
-sou/18221203.txt
-sou/19231206.txt
-sou/19730202.txt
-sou/19291203.txt
-sou/19820126.txt
-sou/20060131.txt
-sou/18501202.txt
-sou/17931203.txt
-sou/18711204.txt
-sou/18441203.txt
-sou/17900108.txt
-sou/18561202.txt
-sou/18381203.txt
-sou/19071203.txt
-sou/19570110.txt
-sou/19171204.txt
-sou/18181116.txt
-sou/19420106.txt
-sou/18201114.txt
-sou/20130212.txt
-sou/20030128.txt
-sou/19340103.txt
-sou/19970204.txt
-sou/19810116.txt
-sou/18841201.txt
-sou/19101206.txt
-sou/18351207.txt
-sou/17951208.txt
-sou/19530202.txt
-sou/18971206.txt
-sou/18231202.txt
-sou/18831204.txt
-sou/19490105.txt
-sou/18991205.txt
-sou/18391202.txt
-sou/18481205.txt
-sou/18631208.txt
-sou/19930217.txt
-sou/19111205.txt
-sou/19740130.txt
-sou/20160112.txt
-sou/19880125.txt
-sou/19690114.txt
-sou/19360103.txt
-sou/20120124.txt
-sou/18091129.txt
-sou/19680117.txt
-sou/18851208.txt
-sou/20100127.txt
-sou/19191202.txt
-sou/19670110.txt
-sou/18451202.txt
-sou/19241203.txt
-sou/20080128.txt
-sou/18291208.txt
-sou/19980127.txt
-sou/18401205.txt
-sou/18471207.txt
-sou/19540107.txt
-sou/18191207.txt
-sou/18801206.txt
-sou/18491204.txt
-sou/18881203.txt
-sou/19950124.txt
-sou/19380103.txt
-sou/18761205.txt
-sou/18931203.txt
-sou/18051203.txt
-sou/18271204.txt
-sou/19900131.txt
-sou/18941202.txt
-sou/20150120.txt
-sou/17941119.txt
-sou/18261205.txt
-sou/19710122.txt
-sou/17901208.txt
-sou/19081208.txt
-sou/19550106.txt
-sou/17971122.txt
-sou/19560105.txt
-sou/19640108.txt
-sou/20020129.txt
-sou/19920128.txt
-sou/18511202.txt
-sou/18311206.txt
-sou/19770112.txt
-sou/18521206.txt
-sou/19760119.txt
-sou/18251206.txt
-sou/19860204.txt
-sou/19830125.txt
-sou/19780119.txt
-sou/19650104.txt
-sou/19990119.txt
-sou/20000127.txt
-sou/19600107.txt
-sou/19011203.txt
-sou/19750115.txt
-sou/18911209.txt
-</pre>
-</div>
-</div>
-
-</div>
-
 </div>
 
 </div>
@@ -15047,10 +14509,10 @@ sou/18911209.txt
 -rw------- 1 raazesh raazesh  31K Feb 18  2016 20160112.txt</code></pre>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span>%%sh
@@ -15060,257 +14522,6 @@ ls -lh mydir/sou
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>total 11M
--rw------- 1 sage sage 6.6K Feb 18  2016 17900108.txt
--rw------- 1 sage sage 8.3K Feb 18  2016 17901208.txt
--rw------- 1 sage sage  14K Feb 18  2016 17911025.txt
--rw------- 1 sage sage  13K Feb 18  2016 17921106.txt
--rw------- 1 sage sage  12K Feb 18  2016 17931203.txt
--rw------- 1 sage sage  18K Feb 18  2016 17941119.txt
--rw------- 1 sage sage  13K Feb 18  2016 17951208.txt
--rw------- 1 sage sage  17K Feb 18  2016 17961207.txt
--rw------- 1 sage sage  13K Feb 18  2016 17971122.txt
--rw------- 1 sage sage  14K Feb 18  2016 17981208.txt
--rw------- 1 sage sage 9.1K Feb 18  2016 17991203.txt
--rw------- 1 sage sage 8.2K Feb 18  2016 18001111.txt
--rw------- 1 sage sage  19K Feb 18  2016 18011208.txt
--rw------- 1 sage sage  13K Feb 18  2016 18021215.txt
--rw------- 1 sage sage  14K Feb 18  2016 18031017.txt
--rw------- 1 sage sage  13K Feb 18  2016 18041108.txt
--rw------- 1 sage sage  17K Feb 18  2016 18051203.txt
--rw------- 1 sage sage  17K Feb 18  2016 18061202.txt
--rw------- 1 sage sage  14K Feb 18  2016 18071027.txt
--rw------- 1 sage sage  16K Feb 18  2016 18081108.txt
--rw------- 1 sage sage  11K Feb 18  2016 18091129.txt
--rw------- 1 sage sage  15K Feb 18  2016 18101205.txt
--rw------- 1 sage sage  14K Feb 18  2016 18111105.txt
--rw------- 1 sage sage  20K Feb 18  2016 18121104.txt
--rw------- 1 sage sage  20K Feb 18  2016 18131207.txt
--rw------- 1 sage sage  13K Feb 18  2016 18140920.txt
--rw------- 1 sage sage  19K Feb 18  2016 18151205.txt
--rw------- 1 sage sage  20K Feb 18  2016 18161203.txt
--rw------- 1 sage sage  26K Feb 18  2016 18171212.txt
--rw------- 1 sage sage  26K Feb 18  2016 18181116.txt
--rw------- 1 sage sage  28K Feb 18  2016 18191207.txt
--rw------- 1 sage sage  21K Feb 18  2016 18201114.txt
--rw------- 1 sage sage  34K Feb 18  2016 18211203.txt
--rw------- 1 sage sage  28K Feb 18  2016 18221203.txt
--rw------- 1 sage sage  38K Feb 18  2016 18231202.txt
--rw------- 1 sage sage  49K Feb 18  2016 18241207.txt
--rw------- 1 sage sage  53K Feb 18  2016 18251206.txt
--rw------- 1 sage sage  46K Feb 18  2016 18261205.txt
--rw------- 1 sage sage  42K Feb 18  2016 18271204.txt
--rw------- 1 sage sage  44K Feb 18  2016 18281202.txt
--rw------- 1 sage sage  62K Feb 18  2016 18291208.txt
--rw------- 1 sage sage  89K Feb 18  2016 18301206.txt
--rw------- 1 sage sage  42K Feb 18  2016 18311206.txt
--rw------- 1 sage sage  46K Feb 18  2016 18321204.txt
--rw------- 1 sage sage  46K Feb 18  2016 18331203.txt
--rw------- 1 sage sage  79K Feb 18  2016 18341201.txt
--rw------- 1 sage sage  63K Feb 18  2016 18351207.txt
--rw------- 1 sage sage  72K Feb 18  2016 18361205.txt
--rw------- 1 sage sage  68K Feb 18  2016 18371205.txt
--rw------- 1 sage sage  69K Feb 18  2016 18381203.txt
--rw------- 1 sage sage  79K Feb 18  2016 18391202.txt
--rw------- 1 sage sage  54K Feb 18  2016 18401205.txt
--rw------- 1 sage sage  48K Feb 18  2016 18411207.txt
--rw------- 1 sage sage  49K Feb 18  2016 18421206.txt
--rw------- 1 sage sage  47K Feb 18  2016 18431206.txt
--rw------- 1 sage sage  55K Feb 18  2016 18441203.txt
--rw------- 1 sage sage  94K Feb 18  2016 18451202.txt
--rw------- 1 sage sage 106K Feb 18  2016 18461208.txt
--rw------- 1 sage sage  95K Feb 18  2016 18471207.txt
--rw------- 1 sage sage 125K Feb 18  2016 18481205.txt
--rw------- 1 sage sage  45K Feb 18  2016 18491204.txt
--rw------- 1 sage sage  49K Feb 18  2016 18501202.txt
--rw------- 1 sage sage  78K Feb 18  2016 18511202.txt
--rw------- 1 sage sage  59K Feb 18  2016 18521206.txt
--rw------- 1 sage sage  57K Feb 18  2016 18531205.txt
--rw------- 1 sage sage  61K Feb 18  2016 18541204.txt
--rw------- 1 sage sage  69K Feb 18  2016 18551231.txt
--rw------- 1 sage sage  63K Feb 18  2016 18561202.txt
--rw------- 1 sage sage  81K Feb 18  2016 18571208.txt
--rw------- 1 sage sage  97K Feb 18  2016 18581206.txt
--rw------- 1 sage sage  73K Feb 18  2016 18591219.txt
--rw------- 1 sage sage  83K Feb 18  2016 18601203.txt
--rw------- 1 sage sage  41K Feb 18  2016 18611203.txt
--rw------- 1 sage sage  49K Feb 18  2016 18621201.txt
--rw------- 1 sage sage  37K Feb 18  2016 18631208.txt
--rw------- 1 sage sage  36K Feb 18  2016 18641206.txt
--rw------- 1 sage sage  54K Feb 18  2016 18651204.txt
--rw------- 1 sage sage  44K Feb 18  2016 18661203.txt
--rw------- 1 sage sage  70K Feb 18  2016 18671203.txt
--rw------- 1 sage sage  60K Feb 18  2016 18681209.txt
--rw------- 1 sage sage  46K Feb 18  2016 18691206.txt
--rw------- 1 sage sage  51K Feb 18  2016 18701205.txt
--rw------- 1 sage sage  38K Feb 18  2016 18711204.txt
--rw------- 1 sage sage  24K Feb 18  2016 18721202.txt
--rw------- 1 sage sage  59K Feb 18  2016 18731201.txt
--rw------- 1 sage sage  54K Feb 18  2016 18741207.txt
--rw------- 1 sage sage  72K Feb 18  2016 18751207.txt
--rw------- 1 sage sage  40K Feb 18  2016 18761205.txt
--rw------- 1 sage sage  48K Feb 18  2016 18771203.txt
--rw------- 1 sage sage  48K Feb 18  2016 18781202.txt
--rw------- 1 sage sage  70K Feb 18  2016 18791201.txt
--rw------- 1 sage sage  41K Feb 18  2016 18801206.txt
--rw------- 1 sage sage  24K Feb 18  2016 18811206.txt
--rw------- 1 sage sage  19K Feb 18  2016 18821204.txt
--rw------- 1 sage sage  24K Feb 18  2016 18831204.txt
--rw------- 1 sage sage  54K Feb 18  2016 18841201.txt
--rw------- 1 sage sage 119K Feb 18  2016 18851208.txt
--rw------- 1 sage sage  91K Feb 18  2016 18861206.txt
--rw------- 1 sage sage  31K Feb 18  2016 18871206.txt
--rw------- 1 sage sage  55K Feb 18  2016 18881203.txt
--rw------- 1 sage sage  77K Feb 18  2016 18891203.txt
--rw------- 1 sage sage  68K Feb 18  2016 18901201.txt
--rw------- 1 sage sage  95K Feb 18  2016 18911209.txt
--rw------- 1 sage sage  80K Feb 18  2016 18921206.txt
--rw------- 1 sage sage  75K Feb 18  2016 18931203.txt
--rw------- 1 sage sage  96K Feb 18  2016 18941202.txt
--rw------- 1 sage sage  88K Feb 18  2016 18951207.txt
--rw------- 1 sage sage  93K Feb 18  2016 18961204.txt
--rw------- 1 sage sage  72K Feb 18  2016 18971206.txt
--rw------- 1 sage sage 121K Feb 18  2016 18981205.txt
--rw------- 1 sage sage  91K Feb 18  2016 18991205.txt
--rw------- 1 sage sage 116K Feb 18  2016 19001203.txt
--rw------- 1 sage sage 114K Feb 18  2016 19011203.txt
--rw------- 1 sage sage  57K Feb 18  2016 19021202.txt
--rw------- 1 sage sage  89K Feb 18  2016 19031207.txt
--rw------- 1 sage sage 102K Feb 18  2016 19041206.txt
--rw------- 1 sage sage 144K Feb 18  2016 19051205.txt
--rw------- 1 sage sage 135K Feb 18  2016 19061203.txt
--rw------- 1 sage sage 159K Feb 18  2016 19071203.txt
--rw------- 1 sage sage 113K Feb 18  2016 19081208.txt
--rw------- 1 sage sage  83K Feb 18  2016 19091207.txt
--rw------- 1 sage sage  42K Feb 18  2016 19101206.txt
--rw------- 1 sage sage 141K Feb 18  2016 19111205.txt
--rw------- 1 sage sage 150K Feb 18  2016 19121203.txt
--rw------- 1 sage sage  21K Feb 18  2016 19131202.txt
--rw------- 1 sage sage  25K Feb 18  2016 19141208.txt
--rw------- 1 sage sage  44K Feb 18  2016 19151207.txt
--rw------- 1 sage sage  13K Feb 18  2016 19161205.txt
--rw------- 1 sage sage  22K Feb 18  2016 19171204.txt
--rw------- 1 sage sage  31K Feb 18  2016 19181202.txt
--rw------- 1 sage sage  28K Feb 18  2016 19191202.txt
--rw------- 1 sage sage  16K Feb 18  2016 19201207.txt
--rw------- 1 sage sage  34K Feb 18  2016 19211206.txt
--rw------- 1 sage sage  35K Feb 18  2016 19221208.txt
--rw------- 1 sage sage  41K Feb 18  2016 19231206.txt
--rw------- 1 sage sage  42K Feb 18  2016 19241203.txt
--rw------- 1 sage sage  65K Feb 18  2016 19251208.txt
--rw------- 1 sage sage  62K Feb 18  2016 19261207.txt
--rw------- 1 sage sage  53K Feb 18  2016 19271206.txt
--rw------- 1 sage sage  49K Feb 18  2016 19281204.txt
--rw------- 1 sage sage  68K Feb 18  2016 19291203.txt
--rw------- 1 sage sage  29K Feb 18  2016 19301202.txt
--rw------- 1 sage sage  36K Feb 18  2016 19311208.txt
--rw------- 1 sage sage  26K Feb 18  2016 19321206.txt
--rw------- 1 sage sage  14K Feb 18  2016 19340103.txt
--rw------- 1 sage sage  21K Feb 18  2016 19350104.txt
--rw------- 1 sage sage  22K Feb 18  2016 19360103.txt
--rw------- 1 sage sage  17K Feb 18  2016 19370106.txt
--rw------- 1 sage sage  28K Feb 18  2016 19380103.txt
--rw------- 1 sage sage  23K Feb 18  2016 19390104.txt
--rw------- 1 sage sage  19K Feb 18  2016 19400103.txt
--rw------- 1 sage sage  19K Feb 18  2016 19410106.txt
--rw------- 1 sage sage  20K Feb 18  2016 19420106.txt
--rw------- 1 sage sage  26K Feb 18  2016 19430107.txt
--rw------- 1 sage sage  22K Feb 18  2016 19440111.txt
--rw------- 1 sage sage  48K Feb 18  2016 19450106.txt
--rw------- 1 sage sage 171K Feb 18  2016 19460121.txt
--rw------- 1 sage sage  37K Feb 18  2016 19470106.txt
--rw------- 1 sage sage  30K Feb 18  2016 19480107.txt
--rw------- 1 sage sage  21K Feb 18  2016 19490105.txt
--rw------- 1 sage sage  30K Feb 18  2016 19500104.txt
--rw------- 1 sage sage  23K Feb 18  2016 19510108.txt
--rw------- 1 sage sage  30K Feb 18  2016 19520109.txt
--rw------- 1 sage sage  56K Feb 18  2016 19530107.txt
--rw------- 1 sage sage  43K Feb 18  2016 19530202.txt
--rw------- 1 sage sage  37K Feb 18  2016 19540107.txt
--rw------- 1 sage sage  46K Feb 18  2016 19550106.txt
--rw------- 1 sage sage  51K Feb 18  2016 19560105.txt
--rw------- 1 sage sage  26K Feb 18  2016 19570110.txt
--rw------- 1 sage sage  30K Feb 18  2016 19580109.txt
--rw------- 1 sage sage  30K Feb 18  2016 19590109.txt
--rw------- 1 sage sage  35K Feb 18  2016 19600107.txt
--rw------- 1 sage sage  40K Feb 18  2016 19610112.txt
--rw------- 1 sage sage  31K Feb 18  2016 19610130.txt
--rw------- 1 sage sage  39K Feb 18  2016 19620111.txt
--rw------- 1 sage sage  31K Feb 18  2016 19630114.txt
--rw------- 1 sage sage  19K Feb 18  2016 19640108.txt
--rw------- 1 sage sage  25K Feb 18  2016 19650104.txt
--rw------- 1 sage sage  30K Feb 18  2016 19660112.txt
--rw------- 1 sage sage  41K Feb 18  2016 19670110.txt
--rw------- 1 sage sage  29K Feb 18  2016 19680117.txt
--rw------- 1 sage sage  24K Feb 18  2016 19690114.txt
--rw------- 1 sage sage  25K Feb 18  2016 19700122.txt
--rw------- 1 sage sage  26K Feb 18  2016 19710122.txt
--rw------- 1 sage sage  23K Feb 18  2016 19720120.txt
--rw------- 1 sage sage 9.7K Feb 18  2016 19730202.txt
--rw------- 1 sage sage  29K Feb 18  2016 19740130.txt
--rw------- 1 sage sage  25K Feb 18  2016 19750115.txt
--rw------- 1 sage sage  30K Feb 18  2016 19760119.txt
--rw------- 1 sage sage  28K Feb 18  2016 19770112.txt
--rw------- 1 sage sage  26K Feb 18  2016 19780119.txt
--rw------- 1 sage sage  20K Feb 18  2016 19790125.txt
--rw------- 1 sage sage  20K Feb 18  2016 19800121.txt
--rw------- 1 sage sage 213K Feb 18  2016 19810116.txt
--rw------- 1 sage sage  31K Feb 18  2016 19820126.txt
--rw------- 1 sage sage  33K Feb 18  2016 19830125.txt
--rw------- 1 sage sage  30K Feb 18  2016 19840125.txt
--rw------- 1 sage sage  25K Feb 18  2016 19850206.txt
--rw------- 1 sage sage  20K Feb 18  2016 19860204.txt
--rw------- 1 sage sage  22K Feb 18  2016 19870127.txt
--rw------- 1 sage sage  28K Feb 18  2016 19880125.txt
--rw------- 1 sage sage  28K Feb 18  2016 19890209.txt
--rw------- 1 sage sage  21K Feb 18  2016 19900131.txt
--rw------- 1 sage sage  22K Feb 18  2016 19910129.txt
--rw------- 1 sage sage  27K Feb 18  2016 19920128.txt
--rw------- 1 sage sage  39K Feb 18  2016 19930217.txt
--rw------- 1 sage sage  42K Feb 18  2016 19940125.txt
--rw------- 1 sage sage  51K Feb 18  2016 19950124.txt
--rw------- 1 sage sage  36K Feb 18  2016 19960123.txt
--rw------- 1 sage sage  39K Feb 18  2016 19970204.txt
--rw------- 1 sage sage  42K Feb 18  2016 19980127.txt
--rw------- 1 sage sage  43K Feb 18  2016 19990119.txt
--rw------- 1 sage sage  44K Feb 18  2016 20000127.txt
--rw------- 1 sage sage  25K Feb 18  2016 20010227.txt
--rw------- 1 sage sage  17K Feb 18  2016 20010920.txt
--rw------- 1 sage sage  23K Feb 18  2016 20020129.txt
--rw------- 1 sage sage  32K Feb 18  2016 20030128.txt
--rw------- 1 sage sage  30K Feb 18  2016 20040120.txt
--rw------- 1 sage sage  30K Feb 18  2016 20050202.txt
--rw------- 1 sage sage  31K Feb 18  2016 20060131.txt
--rw------- 1 sage sage  32K Feb 18  2016 20070123.txt
--rw------- 1 sage sage  34K Feb 18  2016 20080128.txt
--rw------- 1 sage sage  33K Feb 18  2016 20090224.txt
--rw------- 1 sage sage  41K Feb 18  2016 20100127.txt
--rw------- 1 sage sage  39K Feb 18  2016 20110125.txt
--rw------- 1 sage sage  40K Feb 18  2016 20120124.txt
--rw------- 1 sage sage  37K Feb 18  2016 20130212.txt
--rw------- 1 sage sage  39K Feb 18  2016 20140128.txt
--rw------- 1 sage sage  38K Feb 18  2016 20150120.txt
--rw------- 1 sage sage  31K Feb 18  2016 20160112.txt
-</pre>
-</div>
-</div>
-
-</div>
-
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -15419,8 +14630,8 @@ We live in a time of extraordinary change, change that&#39;s reshaping the way w
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="How-the-sou.tgz-file-was-created?">How the <code>sou.tgz</code> file was created?<a class="anchor-link" href="#How-the-sou.tgz-file-was-created?">&#182;</a></h2><p>If you are curious, read: <a href="http://lamastex.org/datasets/public/SOU/README.md">http://lamastex.org/datasets/public/SOU/README.md</a>.</p>
-<p>Briefly, this is how a website with SOU was scraped by Paul Brouwers and adapted by Raazesh Sainudiin. A data scientist, and more generally a researcher interested in making statistical inference from data that is readily available online in a particular format, is expected to be comfortable with such <em>web-scraping tasks</em> (which can be done in more gracious and robust ways using specialised Python libraries). Such tasks also known as <em>Extract-Load-Transform (ELT)</em> operations are often time-consuming, expensive andnthe necessary first step towards statistical inference.</p>
+<h2 id="How-was-the-sou.tgz-file-created?">How was the <code>sou.tgz</code> file created?<a class="anchor-link" href="#How-was-the-sou.tgz-file-created?">&#182;</a></h2><p>If you are curious, read: <a href="http://lamastex.org/datasets/public/SOU/README.md">http://lamastex.org/datasets/public/SOU/README.md</a>.</p>
+<p>Briefly, this is how a website with SOU was scraped by Paul Brouwers and adapted by Raazesh Sainudiin. A data scientist, and more generally a researcher interested in making statistical inference from data that is readily available online in a particular format, is expected to be comfortable with such <em>web-scraping tasks</em> (which can be done in more gracious and robust ways using specialised Python libraries). Such tasks also known as <em>Extract-Load-Transform (ELT)</em> operations are often time-consuming, expensive and the necessary first step towards extracting value from data.</p>
 <h3 id="A-bit-of-bash-and-lynx-to-achieve-the-scraping-of-the-state-of-the-union-addresses-of-the-US-Presidents,">A bit of bash and lynx to achieve the scraping of the state of the union addresses of the US Presidents,<a class="anchor-link" href="#A-bit-of-bash-and-lynx-to-achieve-the-scraping-of-the-state-of-the-union-addresses-of-the-US-Presidents,">&#182;</a></h3><h4 id="by-Paul-Brouwers">by Paul Brouwers<a class="anchor-link" href="#by-Paul-Brouwers">&#182;</a></h4><p>The code below is mainly there to show how the text content of each state of the union address was scraped from the following URL:</p>
 <ul>
 <li><a href="http://stateoftheunion.onetwothree.net/texts/index.html">http://stateoftheunion.onetwothree.net/texts/index.html</a></li>
@@ -15454,6 +14665,51 @@ do
                &gt; $(echo $i | sed 's/.*\([0-9]\{8\}\).*/\1/').txt
 
 done</code></pre>
+<p>If you have time and are curious how each of the components in the above pipeline via <code>|</code> operators work, try to read <code>man echo</code>,  <code>man sed</code>,  <code>man grep</code>,  <code>man head</code>,  <code>man tail</code>, and  <code>man lynx</code> or <code>lynx --help</code>. If a command like <code>lynx</code> is not in your system, then you can install it with some work (mostly googling).</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span>%%sh
+<span class="c1">## uncomment by removing &#39;#&#39; in the next line and try executing this cell by pressing Ctrl-Enter to see if lynx is installed</span>
+<span class="c1">#lynx --help</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>So using <code>lynx</code> is not that difficult. Suppose you want to dump the contents of <a href="https://lamastex.github.io/research/#available-student-projects">https://lamastex.github.io/research/#available-student-projects</a> to <code>stdout</code> or standard out, we can do the following:</p>
+
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span>%%sh
+<span class="c1">## uncomment by removing &#39;#&#39; in the next line and try executing this cell if lynx is installed</span>
+<span class="c1">#lynx --dump https://lamastex.github.io/research/#available-student-projects</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Hopefully, you had fun with BASH! Now let us put BASH to use.</p>
 
 </div>
 </div>
