@@ -24,10 +24,10 @@
 
 ### Individual Auto-graded Assignment Preparation
 
-* Assignment 1 assesses comprehension of the lecture companion SageMath-Kernel (9.1+) Jupyter notebooks `00-05.ipynb`
-* Assignment 2 assesses comprehension of the lecture companion SageMath-Kernel (9.1+) Jupyter notebooks `06-12.ipynb`
+* Assignment 1 assesses comprehension of the lecture companion SageMath-Kernel (9.1+) Jupyter notebooks `00.ipynb`,...,`05.ipynb`
+* Assignment 2 assesses comprehension of the lecture companion SageMath-Kernel (9.1+) Jupyter notebooks `06.ipynb`,...,`12.ipynb`
 
 ### Starting package
-* Download the [Starting package](starting_package.zip) (latest update Wed Oct  6 13:20-ish hours UTC 2021)
+* Download the [Starting package](starting_package.zip) with all the notebooks so far (latest update Wed Oct  6 22:15-ish hours UTC 2021)
 * Unzip this into a folder that you will use as the base folder
-* Whenever you download the next lectures as `ipynb` files, you put them in the same place as `00.ipynb` and `01.ipynb`, this way all pathways will be the same for all of us.
+* Whenever you download the next or latest or updated lectures as `ipynb` files, you put them in the same place as `00.ipynb` and `01.ipynb`, this way all pathways will be the same for all of us.
